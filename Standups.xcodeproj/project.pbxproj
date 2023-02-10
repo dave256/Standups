@@ -11,6 +11,17 @@
 		03E3BF6729970C4B00E6F935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF6629970C4B00E6F935 /* ContentView.swift */; };
 		03E3BF6929970C4C00E6F935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E3BF6829970C4C00E6F935 /* Assets.xcassets */; };
 		03E3BF6C29970C4C00E6F935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E3BF6B29970C4C00E6F935 /* Preview Assets.xcassets */; };
+		03E3BF7429970C6300E6F935 /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3BF7329970C6300E6F935 /* IdentifiedCollections */; };
+		03E3BF7729970C7100E6F935 /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3BF7629970C7100E6F935 /* Tagged */; };
+		03E3BF7A29970C8F00E6F935 /* Clocks in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3BF7929970C8F00E6F935 /* Clocks */; };
+		03E3BF7D29970CD300E6F935 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3BF7C29970CD300E6F935 /* Dependencies */; };
+		03E3BF8029970D0000E6F935 /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3BF7F29970D0000E6F935 /* SwiftUINavigation */; };
+		03E3BF8329970D1D00E6F935 /* XCTestDynamicOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3BF8229970D1D00E6F935 /* XCTestDynamicOverlay */; };
+		03E3BF8529970D3900E6F935 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8429970D3900E6F935 /* Models.swift */; };
+		03E3BF8829970D6000E6F935 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8729970D6000E6F935 /* DataManager.swift */; };
+		03E3BF8A29970D7E00E6F935 /* SpeechClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8929970D7E00E6F935 /* SpeechClient.swift */; };
+		03E3BF8C29970D9700E6F935 /* SoundEffectClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8B29970D9700E6F935 /* SoundEffectClient.swift */; };
+		03E3BF8E29970DAB00E6F935 /* OpenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8D29970DAB00E6F935 /* OpenSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,11 @@
 		03E3BF6629970C4B00E6F935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03E3BF6829970C4C00E6F935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E3BF6B29970C4C00E6F935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03E3BF8429970D3900E6F935 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		03E3BF8729970D6000E6F935 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		03E3BF8929970D7E00E6F935 /* SpeechClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechClient.swift; sourceTree = "<group>"; };
+		03E3BF8B29970D9700E6F935 /* SoundEffectClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffectClient.swift; sourceTree = "<group>"; };
+		03E3BF8D29970DAB00E6F935 /* OpenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E3BF7729970C7100E6F935 /* Tagged in Frameworks */,
+				03E3BF7429970C6300E6F935 /* IdentifiedCollections in Frameworks */,
+				03E3BF7A29970C8F00E6F935 /* Clocks in Frameworks */,
+				03E3BF8029970D0000E6F935 /* SwiftUINavigation in Frameworks */,
+				03E3BF8329970D1D00E6F935 /* XCTestDynamicOverlay in Frameworks */,
+				03E3BF7D29970CD300E6F935 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +75,9 @@
 			children = (
 				03E3BF6429970C4B00E6F935 /* StandupsApp.swift */,
 				03E3BF6629970C4B00E6F935 /* ContentView.swift */,
+				03E3BF8429970D3900E6F935 /* Models.swift */,
 				03E3BF6829970C4C00E6F935 /* Assets.xcassets */,
+				03E3BF8629970D5200E6F935 /* Dependencies */,
 				03E3BF6A29970C4C00E6F935 /* Preview Content */,
 			);
 			path = Standups;
@@ -65,6 +89,17 @@
 				03E3BF6B29970C4C00E6F935 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03E3BF8629970D5200E6F935 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				03E3BF8729970D6000E6F935 /* DataManager.swift */,
+				03E3BF8929970D7E00E6F935 /* SpeechClient.swift */,
+				03E3BF8B29970D9700E6F935 /* SoundEffectClient.swift */,
+				03E3BF8D29970DAB00E6F935 /* OpenSettings.swift */,
+			);
+			path = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +118,14 @@
 			dependencies = (
 			);
 			name = Standups;
+			packageProductDependencies = (
+				03E3BF7329970C6300E6F935 /* IdentifiedCollections */,
+				03E3BF7629970C7100E6F935 /* Tagged */,
+				03E3BF7929970C8F00E6F935 /* Clocks */,
+				03E3BF7C29970CD300E6F935 /* Dependencies */,
+				03E3BF7F29970D0000E6F935 /* SwiftUINavigation */,
+				03E3BF8229970D1D00E6F935 /* XCTestDynamicOverlay */,
+			);
 			productName = Standups;
 			productReference = 03E3BF6129970C4B00E6F935 /* Standups.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +154,14 @@
 				Base,
 			);
 			mainGroup = 03E3BF5829970C4B00E6F935;
+			packageReferences = (
+				03E3BF7229970C6300E6F935 /* XCRemoteSwiftPackageReference "swift-identified-collections" */,
+				03E3BF7529970C7100E6F935 /* XCRemoteSwiftPackageReference "swift-tagged" */,
+				03E3BF7829970C8F00E6F935 /* XCRemoteSwiftPackageReference "swift-clocks" */,
+				03E3BF7B29970CD300E6F935 /* XCRemoteSwiftPackageReference "swift-dependencies" */,
+				03E3BF7E29970D0000E6F935 /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+				03E3BF8129970D1D00E6F935 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */,
+			);
 			productRefGroup = 03E3BF6229970C4B00E6F935 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E3BF8529970D3900E6F935 /* Models.swift in Sources */,
+				03E3BF8E29970DAB00E6F935 /* OpenSettings.swift in Sources */,
+				03E3BF8829970D6000E6F935 /* DataManager.swift in Sources */,
 				03E3BF6729970C4B00E6F935 /* ContentView.swift in Sources */,
+				03E3BF8C29970D9700E6F935 /* SoundEffectClient.swift in Sources */,
+				03E3BF8A29970D7E00E6F935 /* SpeechClient.swift in Sources */,
 				03E3BF6529970C4B00E6F935 /* StandupsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +395,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03E3BF7229970C6300E6F935 /* XCRemoteSwiftPackageReference "swift-identified-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-identified-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		03E3BF7529970C7100E6F935 /* XCRemoteSwiftPackageReference "swift-tagged" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-tagged.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		03E3BF7829970C8F00E6F935 /* XCRemoteSwiftPackageReference "swift-clocks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-clocks.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		03E3BF7B29970CD300E6F935 /* XCRemoteSwiftPackageReference "swift-dependencies" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-dependencies.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+		03E3BF7E29970D0000E6F935 /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.5;
+			};
+		};
+		03E3BF8129970D1D00E6F935 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/xctest-dynamic-overlay.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03E3BF7329970C6300E6F935 /* IdentifiedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E3BF7229970C6300E6F935 /* XCRemoteSwiftPackageReference "swift-identified-collections" */;
+			productName = IdentifiedCollections;
+		};
+		03E3BF7629970C7100E6F935 /* Tagged */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E3BF7529970C7100E6F935 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = Tagged;
+		};
+		03E3BF7929970C8F00E6F935 /* Clocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E3BF7829970C8F00E6F935 /* XCRemoteSwiftPackageReference "swift-clocks" */;
+			productName = Clocks;
+		};
+		03E3BF7C29970CD300E6F935 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E3BF7B29970CD300E6F935 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		03E3BF7F29970D0000E6F935 /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E3BF7E29970D0000E6F935 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
+		03E3BF8229970D1D00E6F935 /* XCTestDynamicOverlay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E3BF8129970D1D00E6F935 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */;
+			productName = XCTestDynamicOverlay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 03E3BF5929970C4B00E6F935 /* Project object */;
 }
