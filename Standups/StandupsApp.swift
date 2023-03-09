@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct StandupsApp: App {
+    // @StateObject private var appModel = AppModel(standupsList: StandupsListModel(standups: [.engineeringMock, .designMock]))
+    @StateObject private var appModel = AppModel(standupsList: StandupsListModel())
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView(model: appModel)
         }
     }
 }

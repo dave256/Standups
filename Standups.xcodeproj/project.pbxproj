@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A3FFA929B9194000BE05A0 /* StandupDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3FFA829B9194000BE05A0 /* StandupDetail.swift */; };
+		03A3FFAB29BA308200BE05A0 /* StandupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3FFAA29BA308200BE05A0 /* StandupForm.swift */; };
+		03A3FFAD29BA33B100BE05A0 /* RecordMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3FFAC29BA33B100BE05A0 /* RecordMeeting.swift */; };
+		03A3FFB029BA5F1D00BE05A0 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03A3FFAF29BA5F1D00BE05A0 /* ding.wav */; };
 		03E3BF6529970C4B00E6F935 /* StandupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF6429970C4B00E6F935 /* StandupsApp.swift */; };
-		03E3BF6729970C4B00E6F935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF6629970C4B00E6F935 /* ContentView.swift */; };
 		03E3BF6929970C4C00E6F935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E3BF6829970C4C00E6F935 /* Assets.xcassets */; };
 		03E3BF6C29970C4C00E6F935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E3BF6B29970C4C00E6F935 /* Preview Assets.xcassets */; };
 		03E3BF7429970C6300E6F935 /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3BF7329970C6300E6F935 /* IdentifiedCollections */; };
@@ -22,12 +25,18 @@
 		03E3BF8A29970D7E00E6F935 /* SpeechClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8929970D7E00E6F935 /* SpeechClient.swift */; };
 		03E3BF8C29970D9700E6F935 /* SoundEffectClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8B29970D9700E6F935 /* SoundEffectClient.swift */; };
 		03E3BF8E29970DAB00E6F935 /* OpenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8D29970DAB00E6F935 /* OpenSettings.swift */; };
+		03E3BF90299814D300E6F935 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF8F299814D300E6F935 /* App.swift */; };
+		03E3BF922998157300E6F935 /* StandupsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF912998157300E6F935 /* StandupsList.swift */; };
+		03E3BF942998171600E6F935 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3BF932998171600E6F935 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03A3FFA829B9194000BE05A0 /* StandupDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupDetail.swift; sourceTree = "<group>"; };
+		03A3FFAA29BA308200BE05A0 /* StandupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupForm.swift; sourceTree = "<group>"; };
+		03A3FFAC29BA33B100BE05A0 /* RecordMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMeeting.swift; sourceTree = "<group>"; };
+		03A3FFAF29BA5F1D00BE05A0 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		03E3BF6129970C4B00E6F935 /* Standups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Standups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E3BF6429970C4B00E6F935 /* StandupsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupsApp.swift; sourceTree = "<group>"; };
-		03E3BF6629970C4B00E6F935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03E3BF6829970C4C00E6F935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E3BF6B29970C4C00E6F935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03E3BF8429970D3900E6F935 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
@@ -35,6 +44,9 @@
 		03E3BF8929970D7E00E6F935 /* SpeechClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechClient.swift; sourceTree = "<group>"; };
 		03E3BF8B29970D9700E6F935 /* SoundEffectClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffectClient.swift; sourceTree = "<group>"; };
 		03E3BF8D29970DAB00E6F935 /* OpenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSettings.swift; sourceTree = "<group>"; };
+		03E3BF8F299814D300E6F935 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		03E3BF912998157300E6F935 /* StandupsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupsList.swift; sourceTree = "<group>"; };
+		03E3BF932998171600E6F935 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A3FFAE29BA5F0100BE05A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03A3FFAF29BA5F1D00BE05A0 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		03E3BF5829970C4B00E6F935 = {
 			isa = PBXGroup;
 			children = (
@@ -73,11 +93,17 @@
 		03E3BF6329970C4B00E6F935 /* Standups */ = {
 			isa = PBXGroup;
 			children = (
-				03E3BF6429970C4B00E6F935 /* StandupsApp.swift */,
-				03E3BF6629970C4B00E6F935 /* ContentView.swift */,
+				03E3BF8F299814D300E6F935 /* App.swift */,
 				03E3BF8429970D3900E6F935 /* Models.swift */,
+				03E3BF912998157300E6F935 /* StandupsList.swift */,
+				03A3FFA829B9194000BE05A0 /* StandupDetail.swift */,
+				03A3FFAA29BA308200BE05A0 /* StandupForm.swift */,
+				03A3FFAC29BA33B100BE05A0 /* RecordMeeting.swift */,
+				03E3BF6429970C4B00E6F935 /* StandupsApp.swift */,
+				03E3BF932998171600E6F935 /* Helpers.swift */,
 				03E3BF6829970C4C00E6F935 /* Assets.xcassets */,
 				03E3BF8629970D5200E6F935 /* Dependencies */,
+				03A3FFAE29BA5F0100BE05A0 /* Resources */,
 				03E3BF6A29970C4C00E6F935 /* Preview Content */,
 			);
 			path = Standups;
@@ -176,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A3FFB029BA5F1D00BE05A0 /* ding.wav in Resources */,
 				03E3BF6C29970C4C00E6F935 /* Preview Assets.xcassets in Resources */,
 				03E3BF6929970C4C00E6F935 /* Assets.xcassets in Resources */,
 			);
@@ -188,11 +215,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A3FFAD29BA33B100BE05A0 /* RecordMeeting.swift in Sources */,
 				03E3BF8529970D3900E6F935 /* Models.swift in Sources */,
+				03A3FFA929B9194000BE05A0 /* StandupDetail.swift in Sources */,
 				03E3BF8E29970DAB00E6F935 /* OpenSettings.swift in Sources */,
+				03E3BF942998171600E6F935 /* Helpers.swift in Sources */,
 				03E3BF8829970D6000E6F935 /* DataManager.swift in Sources */,
-				03E3BF6729970C4B00E6F935 /* ContentView.swift in Sources */,
+				03E3BF922998157300E6F935 /* StandupsList.swift in Sources */,
+				03A3FFAB29BA308200BE05A0 /* StandupForm.swift in Sources */,
 				03E3BF8C29970D9700E6F935 /* SoundEffectClient.swift in Sources */,
+				03E3BF90299814D300E6F935 /* App.swift in Sources */,
 				03E3BF8A29970D7E00E6F935 /* SpeechClient.swift in Sources */,
 				03E3BF6529970C4B00E6F935 /* StandupsApp.swift in Sources */,
 			);
@@ -326,6 +358,8 @@
 				DEVELOPMENT_TEAM = FQMFVK55K7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To listen to meetings and transcribe notes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To transcribe meeting notes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -355,6 +389,8 @@
 				DEVELOPMENT_TEAM = FQMFVK55K7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To listen to meetings and transcribe notes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To transcribe meeting notes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
